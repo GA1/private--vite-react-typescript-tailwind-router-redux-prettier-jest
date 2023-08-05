@@ -1,4 +1,4 @@
-import { Counter } from './counter.tsx'
+import { Counter } from './counter'
 
 export const Home = () => (
   <div className='mt-10 flex w-full flex-col items-center'>

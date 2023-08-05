@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
-import { Router } from './general/Router.jsx'
+import { Router } from './general/Router.tsx'
 import { Provider } from 'react-redux'
 import { store } from './state/store'
 
