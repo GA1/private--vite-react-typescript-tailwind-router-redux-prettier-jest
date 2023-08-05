@@ -8,15 +8,17 @@ export const Counter = ({ title }: { title: string }) => {
   const dispatch = useDispatch()
 
   return (
-    <div className='flex flex-row gap-4'>
-      <span>{title}</span>
-      <button aria-label='Increment value' onClick={() => dispatch(increment())}>
-        Increment
-      </button>
-      <span>{count}</span>
-      <button aria-label='Decrement value' onClick={() => dispatch(decrement())}>
-        Decrement
-      </button>
+    <div className='flex flex-col items-center gap-y-4'>
+      <span className='text-3xl'>{title}</span>
+      <div className='flex flex-row'>
+        <button className='p-4' aria-label='Increment value' onClick={() => dispatch(increment())}>
+          Increment
+        </button>
+        <span className='p-4'>{count}</span>
+        <button className='p-4' aria-label='Decrement value' onClick={() => dispatch(decrement())}>
+          Decrement
+        </button>
+      </div>
     </div>
   )
 }

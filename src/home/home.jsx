@@ -1,7 +1,7 @@
 import { Counter } from './counter.tsx'
 
 export const Home = () => (
-  <div className='mt-10 flex w-full flex-col'>
+  <div className='mt-10 flex w-full flex-col items-center'>
     <div className='flex w-full flex-col items-center justify-between gap-6 text-center lg:flex-row lg:text-left'>
       <h2 className='flex w-full justify-center text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl'>
         <span className='w-96 text-center'>
