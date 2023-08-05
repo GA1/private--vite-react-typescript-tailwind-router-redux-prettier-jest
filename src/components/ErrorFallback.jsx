@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { RoutePaths } from '../general/RoutePaths.tsx'
+import { RoutePaths } from '../general/route-paths.tsx'
 
 export const ErrorFallback = ({ error, resetErrorBoundary }) => {
   const navigate = useNavigate()

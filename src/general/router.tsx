@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom'
 
-import { RoutePaths } from './RoutePaths'
-import { Home } from '../home/home.js'
-import { NotFound } from './NotFound'
-import { Layout } from './Layout'
+import { RoutePaths } from './route-paths'
+import { Home } from '../home/home'
+import { NotFound } from './not-found'
+import { Layout } from './layout'
 
 export const Router = () => (
   <Routes>
