@@ -10,12 +10,12 @@ export const Counter = ({ title }: { title: string }) => {
     <div className='flex flex-col items-center gap-y-4'>
       <span className='text-3xl'>{title}</span>
       <div className='flex flex-row'>
-        <button className='p-4' aria-label='Increment value' onClick={() => dispatch(increment())}>
-          Increment
-        </button>
-        <span className='p-4'>{count}</span>
         <button className='p-4' aria-label='Decrement value' onClick={() => dispatch(decrement())}>
           Decrement
+        </button>
+        <span className='p-4'>{count}</span>
+        <button className='p-4' aria-label='Increment value' onClick={() => dispatch(increment())}>
+          Increment
         </button>
       </div>
     </div>
