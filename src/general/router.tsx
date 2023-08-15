@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 
-import { RoutePaths } from './route-paths'
+import { RoutePaths } from '../routing/route-paths'
 import { Home } from '../home/home'
 import { NotFound } from './not-found'
 import { Layout } from './layout'
